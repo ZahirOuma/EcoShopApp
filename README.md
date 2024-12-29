@@ -19,37 +19,6 @@ The EcoShop application follows a modern three-tier architecture:
 
 ---
 
-### Docker Configuration
-Docker Compose for Backend:
-
-```yaml
-version: '3.8'
-services:
-  flask:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: flask_api
-    environment:
-      FLASK_ENV: development
-    ports:
-      - "5000:5000"
-    volumes:
-      - .:/app
-```
-
-Dockerfile for Flask API:
-
-```dockerfile
-FROM python:3.9-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["python", "app.py"]
-```
-
----
 
 ### Mobile Structure
 
