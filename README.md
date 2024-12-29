@@ -12,7 +12,8 @@
 ### Software Architecture
 The EcoShop application follows a modern three-tier architecture:
 
-1. **Frontend:** Built using Android Studio, featuring MVVM architecture with fragments for Scanner and List views.
+
+1. **Frontend:** Built using Android Studio, featuring architecture with fragments for Scanner Profile Product Details and List views.
 2. **Backend:** Flask-based REST API that handles barcode scanning and retrieves product details using web scraping from Open Food Facts.
 3. **Database:** Local storage on mobile devices using Room, with user information and scanned product history stored locally.
 
