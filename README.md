@@ -1,5 +1,11 @@
-## EcoShop Application Architecture ##
+# EcoShop: Empowering Sustainable Purchasing Decisions
 
+EcoShop is an innovative mobile application designed to empower consumers to make sustainable and informed purchasing decisions. With EcoShop, users can scan product barcodes to instantly access crucial information, including:
+
+- *Nutri-Score*: A nutritional rating to help users make healthier choices.
+- *Environmental Impact*: Information on the environmental footprint of the product.
+- *Carbon Footprint*: Data on the product's carbon emissions.
+- *Detailed Product Information*: Includes the product's name, image, ingredients, and more.
 # Table of Contents
 1. Software Architecture
 2. Docker Configuration
