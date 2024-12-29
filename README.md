@@ -84,10 +84,7 @@ The backend is built using Flask with the following structure:
 ```plaintext
 /app
 |-- app.py  # Main entry point for the Flask app
-|-- routes.py  # API routes for product scanning
-|-- models.py  # Data models
-|-- scraper.py  # Web scraping logic for Open Food Facts
-|-- requirements.txt
+
 ```
 
 **API Endpoints:**
