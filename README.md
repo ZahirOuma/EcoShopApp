@@ -32,18 +32,27 @@ The EcoShop application follows a modern three-tier architecture:
 
 ```plaintext
 com.example.ecoshop
-|
-|-- adapter: RecyclerView adapters for scanned product lists
-|-- api: Retrofit API client and services
-|-- database: Room database setup and DAOs
-|-- model: Data models (Product, User)
-|-- repository: Handles API calls and database operations
-|-- viewmodel: Manages UI-related data for fragments
+|-- adapter: Adapters for managing and displaying lists. 
+|-- dao: Data Access Objects for database operations.
+|-- data: Room database setup and configuration.
+|-- model: Data models (e.g., Product, User).
+|-- network: Retrofit API client and services for handling API interactions.
+|-- repository: Bridges network and database, handling data operations and business logic.
+|-- utils: Utility classes and helpers (e.g., constants, common methods).
 |-- views:
-    |-- MainActivity.java
+    |-- activities:
+        |-- SplashActivity.java
+        |-- FirstActivity.java
     |-- fragments:
-        |-- ScannerFragment.java
+        |-- AppInfoFragment.java
+        |-- EcoScoreDetailFragment.java
         |-- ListFragment.java
+        |-- NutriScoreDetailFragment.java
+        |-- ProductDetailsFragment.java
+        |-- ProfileFragment.java
+        |-- ScannerFragment.java
+        |-- UserFormActivity.java
+
 ```
 
 **Dependencies:**
