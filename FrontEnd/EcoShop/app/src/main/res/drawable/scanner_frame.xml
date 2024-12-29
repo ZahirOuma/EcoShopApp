@@ -1,0 +1,34 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Couche inférieure : Bordure orange arrondie -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Coins arrondis -->
+            <corners android:radius="20dp" />
+            <!-- Bordure orange -->
+            <stroke
+                android:width="4dp"
+                android:color="#E1A005" />
+            <!-- Fond transparent pour ne pas couvrir le rectangle gris -->
+            <solid android:color="@android:color/transparent" />
+            <size
+                android:width="240dp"
+                android:height="240dp" />
+        </shape>
+    </item>
+
+    <!-- Couche supérieure : Rectangle gris arrondi -->
+    <item
+        android:top="4dp"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"> <!-- Décalage pour placer le rectangle gris à l'intérieur de la bordure -->
+        <shape android:shape="rectangle">
+            <!-- Coins arrondis (identiques à l'intérieur de la bordure orange) -->
+            <corners android:radius="16dp" /> <!-- Rayon ajusté pour un alignement parfait -->
+            <!-- Fond gris -->
+            <solid android:color="#80000000" />
+        </shape>
+    </item>
+
+</layer-list>

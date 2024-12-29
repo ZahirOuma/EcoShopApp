@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="800"
+    android:viewportHeight="800">
+
+    <!-- Cercle de fond -->
+    <path
+        android:fillColor="#343434"
+        android:pathData="M400,400m-320,0a320,320 0,1 1,640 0a320,320 0,1 1,-640 0"/>
+
+    <!-- Étoiles -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M200,200h8v8h-8z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M600,300h8v8h-8z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M500,150h8v8h-8z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M300,500h8v8h-8z"/>
+
+    <!-- Corps de l'astronaute -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M350,300 C330,320 320,380 320,420 C320,460 340,500 400,500 C460,500 480,460 480,420 C480,380 470,320 450,300 Z"/>
+
+    <!-- Casque -->
+    <path
+        android:fillColor="#E1A500"
+        android:pathData="M350,280 C350,230 450,230 450,280 C450,330 350,330 350,280 Z"/>
+
+    <!-- Visière -->
+    <path
+        android:fillColor="#7e5109"
+        android:pathData="M365,280 C365,245 435,245 435,280 C435,315 365,315 365,280 Z"/>
+
+    <!-- Laptop -->
+    <path
+        android:fillColor="#E1A500"
+        android:pathData="M320,420 L480,420 L460,480 L340,480 Z"/>
+    <path
+        android:fillColor="#E1A500"
+        android:pathData="M340,420 L460,420 L450,440 L350,440 Z"/>
+
+    <!-- Icône fusée sur laptop -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M390,425 L410,425 L400,435 Z"/>
+
+    <!-- Lune sur laptop -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M370,430a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+
+    <!-- Détails des bras -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M320,380 C300,390 290,410 300,430 C310,450 330,440 340,420"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M480,380 C500,390 510,410 500,430 C490,450 470,440 460,420"/>
+
+    <!-- Bulles de conversation avec coeur -->
+    <path
+        android:fillColor="#7e5109"
+        android:pathData="M520,260a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"/>
+    <path
+        android:fillColor="#E1A500"
+        android:pathData="M550,245 L558,260 L542,260 L550,245 L550,275"/>
+</vector>

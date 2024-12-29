@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#343434"
+    android:weightSum="2">
+
+    <!-- Section jaune -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#343434"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="295dp"
+            android:layout_height="271dp"
+            android:contentDescription="Decorative image"
+            android:src="@drawable/profil" />
+    </LinearLayout>
+
+    <!-- Section blanche arrondie -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_background"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:elevation="6dp">
+
+        <!-- Conteneur pour le titre en haut -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome,ready to scan?"
+                android:textSize="29sp"
+                android:textStyle="italic"
+                android:textColor="#E1A500"
+                android:paddingBottom="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qr_code_frame" />
+
+        </LinearLayout>
+
+        <!-- Conteneur central -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Email Input with Icon -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                app:startIconTint="#E1A500"
+                app:boxStrokeColor="#000000"
+                android:textColorHint="#808080"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeWidth="1dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emailInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:hint="Enter Your Email"
+                    app:boxStrokeColor="#000000"
+                    android:inputType="textEmailAddress"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:textColor="#808080"
+                    android:textColorHint="#808080" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- First Name Input with Icon -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:startIconDrawable="@drawable/ic_baseline_person_24"
+                app:startIconTint="#E1A500"
+                android:textColorHint="#808080"
+                app:boxStrokeColor="#000000"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeWidth="1dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/firstNameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:hint="Enter Your First Name"
+                    app:boxStrokeColor="#000000"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:textColor="#808080"
+                    android:textColorHint="#808080" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Last Name Input with Icon -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:startIconDrawable="@drawable/ic_baseline_person_24"
+                app:startIconTint="#E1A500"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="#000000"
+                app:boxStrokeWidth="1dp"
+                android:textColorHint="#808080"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/lastNameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:hint="Enter Your Last Name"
+                    app:boxStrokeColor="#000000"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:textColor="#808080"
+                    android:textColorHint="#808080"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#343434"
+                android:padding="16dp"
+                android:text="Let's Scan"
+                android:textColor="#E1A500" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
