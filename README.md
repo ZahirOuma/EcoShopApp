@@ -98,25 +98,16 @@ The backend is built using Flask with the following structure:
 
 **API Endpoints:**
 
-```python
-from flask import Flask, jsonify, request
-from scraper import scrape_product_details
-
-app = Flask(__name__)
-
-@app.route('/api/scan', methods=['POST'])
-def scan():
-    barcode = request.json.get('barcode')
-    product_details = scrape_product_details(barcode)
-    if product_details:
-        return jsonify(product_details), 200
-    return jsonify({'error': 'Product not found'}), 404
-
-if __name__ == '__main__':
-    app.run(debug=True)
-```
-
----
+- **Description:** Scans a product barcode and fetches its details.
+- **Request:**
+    ```json
+    {
+        "barcode": "1234567890123"
+    }
+    ```
+- **Response:**
+    - **Success:** Returns the product details in JSON format.
+    - **Error:** Returns an error message if the product is not found.
 
 ### Getting Started
 
