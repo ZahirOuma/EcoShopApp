@@ -157,5 +157,5 @@ The backend is built using Flask with the following structure:
 We welcome contributions! Please fork the repository and submit a pull request with your changes.
 
 ### Contributors:
-- **Your Name (GitHub)**
-- **Your Team Members (GitHub)**
+- [Your Name](https://github.com/ZahirOuma)
+- [Team Member 1](https://github.com/Hafsa1sa) 
