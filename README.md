@@ -8,12 +8,15 @@ EcoShop is an innovative mobile application designed to empower consumers to mak
 - *Detailed Product Information*: Includes the product's name, image, ingredients, and more.
 # Table of Contents
 1. [Software Architecture](#software-architecture)
-2. [Docker Configuration](#docker-configuration)
-3. [Frontend Structure](#frontend-structure)
-4. [Backend Structure](#backend-structure)
-5. [Mobile Structure](#mobile-structure)
-6. [Getting Started](#getting-started)
-7. [Video Demonstration](#video-demonstration)
+2. [Mobile Structure](#mobile-structure)
+3. [Backend Structure](#backend-structure)
+4. [Getting Started](#getting-started)
+    - [Backend Setup](#backend-setup)
+    - [Mobile Setup](#mobile-setup)
+5. [Video Demonstration](#video-demonstration)
+6. [Contributing](#contributing)
+7. [Contributors](#contributors)
+
 
 ### Software Architecture
 The EcoShop application follows a modern three-tier architecture:
