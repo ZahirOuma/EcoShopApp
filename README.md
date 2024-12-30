@@ -7,13 +7,13 @@ EcoShop is an innovative mobile application designed to empower consumers to mak
 - *Carbon Footprint*: Data on the product's carbon emissions.
 - *Detailed Product Information*: Includes the product's name, image, ingredients, and more.
 # Table of Contents
-1. Software Architecture
-2. Docker Configuration
-3. Frontend Structure
-4. Backend Structure
-5. Mobile Structure
-6. Getting Started
-7. Video Demonstration
+1. [Software Architecture](#software-architecture)
+2. [Docker Configuration](#docker-configuration)
+3. [Frontend Structure](#frontend-structure)
+4. [Backend Structure](#backend-structure)
+5. [Mobile Structure](#mobile-structure)
+6. [Getting Started](#getting-started)
+7. [Video Demonstration](#video-demonstration)
 
 ### Software Architecture
 The EcoShop application follows a modern three-tier architecture:
@@ -119,16 +119,19 @@ The backend is built using Flask with the following structure:
    ```
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+  pip install flask
+  pip install selenium
+  pip install beautifulsoup4
+
    ```
 3. Run the Flask server:
    ```bash
-   python app.py
+   flask run --host=0.0.0.0
    ```
 
 #### Mobile Setup:
 1. Open the Android project in Android Studio.
-2. Update the API endpoint in `ApiClient.java`:
+2. Update the API endpoint in `Constants.java`:
    ```java
    public static final String BASE_URL = "http://<your-backend-url>:5000/api/";
    ```
