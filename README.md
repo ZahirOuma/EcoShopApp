@@ -22,6 +22,7 @@ EcoShop is an innovative mobile application designed to empower consumers to mak
 
 ### Software Architecture
 The EcoShop application follows a modern three-tier architecture:
+![UseCase](https://github.com/user-attachments/assets/a88f05b3-b2fe-4161-9b57-37f5668a8d12)
 
 
 1. **Frontend:** Built using Android Studio, featuring architecture with fragments for Scanner Profile Product Details and List views.
