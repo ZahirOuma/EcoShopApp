@@ -143,7 +143,8 @@ The backend is built using Flask with the following structure:
 ---
 
 ### Video Demonstration
-- https://github.com/user-attachments/assets/bc57dbb5-bfa2-409e-a717-5a1bdc0ef813
+- [Watch the Video Demonstration](https://www.youtube.com/watch?v=your_video_id)
+
 
 
 ---
