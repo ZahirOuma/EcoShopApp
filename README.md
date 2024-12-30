@@ -1,4 +1,6 @@
 # EcoShop: Empowering Sustainable Purchasing Decisions
+![d8fb03e5-1487-46c0-9113-8ce8abba272b](https://github.com/user-attachments/assets/7919926f-5bda-4ef4-982c-9a8d63611659)
+
 
 EcoShop is an innovative mobile application designed to empower consumers to make sustainable and informed purchasing decisions. With EcoShop, users can scan product barcodes to instantly access crucial information, including:
 
